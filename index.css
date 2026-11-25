@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #d1cece;
+}
+
+header, footer {
+text-align: center;
+padding: 2rem;
+background-color: #000;
+}
+
+a{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    text-decoration: none; 
+    color: #d1cece;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.title{
+    text-align: center;
+    color: #fffefe;
+    text-shadow: 2px 2px 4px #000;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR_ItUcusK5k_2bwveUXzOp4otfRjCPvYGJ_nHTx4kig&s=10);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10rem;
+}
+
+.title__p{
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.over, .over__p{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.commentaries{
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.cards{
+    background-color: #945e246c;
+    border: 3px solid #000;
+    border-radius: 2rem;
+    margin: 2rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#button{
+    margin-top: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+     background-color: #d1cece;
+     color: #000;
+     font-size: 25px;
+     font-weight: 700;
+     cursor: pointer;
+}
+
+#button:active{
+   background-color: #000;
+   color: #d1cece;
+}
+
+#result:empty{
+    display: none;
+}
+
+.email{
+cursor: pointer;
+text-decoration: underline;
+}
+
+img{
+    width: 2.5rem;
+    border-radius: 2rem;
+}
+
+.over__later{
+    background-image: url(/a_clean_modern_medical_consultation_room_photogr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 20rem;
+    color: #fffefe;
+    font-style: oblique;
+   font-size: 2rem;
+}
+.over__text{
+    margin-top: -10rem;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.phone{
+    font-size: 1.25rem;
+    margin-top: -2.5rem;
+    margin-bottom: 2rem;
+}
+
+.address{
+justify-content: left;
+font-style: normal;
+font-weight: 600;
+margin-top: 3rem;
+margin-bottom: 5rem;
+}
+
+.cadastred{
+    text-align: center;
+}
+
+#form{
+    margin: 2rem;
+    padding: 2rem;
+    border: 3px solid #000;
+    display: inline-block;
+    font-weight: 700;
+}
+
+input{
+    border-radius: 3rem;
+    padding: 0.5rem;
+    outline: #000;
+    
+}
+
+footer{
+    color: #fffefe;
+    font-size: 1.5rem;
+}
